@@ -17326,13 +17326,6 @@
 			"ticker": "DEGEN"
 		},
 		{
-			"name": "Tron",
-			"chain_id": "728126428",
-			"is_testnet": false,
-			"layer": "l1",
-			"ticker": "TRX"
-		},
-		{
 			"name": "Tau Testnet",
 			"chain_id": "737998412",
 			"is_testnet": true,
@@ -17683,13 +17676,6 @@
 			"ticker": "ACME"
 		},
 		{
-			"name": "Tron Shasta",
-			"chain_id": "2494104990",
-			"is_testnet": false,
-			"layer": "l1",
-			"ticker": "TRX"
-		},
-		{
 			"name": "GUT Network",
 			"chain_id": "3078101055",
 			"is_testnet": false,
@@ -17702,13 +17688,6 @@
 			"is_testnet": false,
 			"layer": "l1",
 			"ticker": "PIRL"
-		},
-		{
-			"name": "Tron Nile",
-			"chain_id": "3448148188",
-			"is_testnet": true,
-			"layer": "l1",
-			"ticker": "TRX"
 		},
 		{
 			"name": "OneLedger Testnet Frankenstein",
