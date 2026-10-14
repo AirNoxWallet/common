@@ -16,3 +16,10 @@ The MHDA network name dictionary. A UI looks a chain up by `(network family, cha
   networks do not hand one out, so it is formed locally.
 - `layer` (`l1` / `l2`) and `is_testnet` are hints; `is_testnet` is guessed from the name for public
   entries.
+
+## tokens.json
+
+The verified token dictionary: every token of the wallet's trusted list (`tokens.trusted.json`, which
+holds the default-listed ones too), grouped by network family. A token is identified by
+`(family, chain_id, contract)`; `contract` is in the family's canonical form (EIP-55 for EVM) and
+is matched exactly. `chain_id` is the same key as in `networks.json`. No version field.
