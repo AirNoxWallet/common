@@ -16,5 +16,3 @@ The MHDA network name dictionary. A UI looks a chain up by `(network family, cha
   networks do not hand one out, so it is formed locally.
 - `layer` (`l1` / `l2`) and `is_testnet` are hints; `is_testnet` is guessed from the name for public
   entries.
-
-Regenerate: `python3 -I tools/gen_networks.py --registry chains.json --builtin <wallet>/res/config/chains.builtin.json --out networks.json`
