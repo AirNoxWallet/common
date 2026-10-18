@@ -23,3 +23,12 @@ The verified token dictionary: every token of the wallet's trusted list (`tokens
 holds the default-listed ones too), grouped by network family. A token is identified by
 `(family, chain_id, contract)`; `contract` is in the family's canonical form (EIP-55 for EVM) and
 is matched exactly. `chain_id` is the same key as in `networks.json`. No version field.
+
+## assets
+
+PNG logos; file names match `[a-z0-9_-]+.png`.
+
+- `chains_logo/`: supported networks, 256 px (byte for byte `res/logos/` of the app).
+- `swaps_logo/`: swap providers, 256 px (byte for byte `res/logos/` of the app).
+- `tokens_logo/`: tokens of `tokens.json`, named by the lowercase `symbol` (128 px). Tokens without a
+  suitable icon (bridged and wrapped variants, symbols with `.`, spaces or non-ASCII) have no file.
