@@ -30,5 +30,7 @@ PNG logos; file names match `[a-z0-9_-]+.png`.
 
 - `chains_logo/`: supported networks, 256 px (byte for byte `res/logos/` of the app).
 - `swaps_logo/`: swap providers, 256 px (byte for byte `res/logos/` of the app).
-- `tokens_logo/`: tokens of `tokens.json`, named by the lowercase `symbol` (128 px). Tokens without a
-  suitable icon (bridged and wrapped variants, symbols with `.`, spaces or non-ASCII) have no file.
+- `tokens_logo/`: tokens of `tokens.json`, 128 px, named by the `symbol` lowercased with every run of
+  characters outside `[a-z0-9_-]` replaced by `-` (`USDC.e` is `usdc-e.png`, `LINK (bridged)` is
+  `link-bridged.png`). `USD₮` on TON is `usdt.png`. Bridged variants share the icon of their asset
+  where the source has none of their own. No file: `2Z`, `jTRX`, `jucySOL` (no usable icon found).
