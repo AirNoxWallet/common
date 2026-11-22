@@ -6994,7 +6994,7 @@
 			"ticker": "ETH"
 		},
 		{
-			"name": "Robinhood Chain",
+			"name": "Robinhood",
 			"chain_id": "4663",
 			"is_testnet": false,
 			"layer": "l2",
@@ -11831,7 +11831,7 @@
 			"ticker": "BLESS"
 		},
 		{
-			"name": "Robinhood Chain Testnet",
+			"name": "Robinhood Testnet",
 			"chain_id": "46630",
 			"is_testnet": true,
 			"layer": "l2",
